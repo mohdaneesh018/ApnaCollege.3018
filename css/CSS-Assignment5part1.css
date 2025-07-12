@@ -1,0 +1,65 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 3px solid skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+#a {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#a {
+     
+    background-color: grey;
+    
+}
+
+#b {
+     
+    background-color: grey;
+}
+
+#c {
+     
+    background-color: grey;
+}
+
+#d {
+     
+    background-color: grey;
+}
+
+#e {
+    
+    background-color: grey;
+}
+
+#f {
+     
+    background-color: grey;
+}
+
+#g {
+     
+    background-color: grey;
+}
+
+#h {
+     
+    background-color: grey;
+}
+
+#i {
+    background-color: grey;
+}
+

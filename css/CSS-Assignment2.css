@@ -1,0 +1,56 @@
+/* Id-Selector */  
+    #mainTopic {
+        color: blue;
+    }
+
+/* Universal-Selector */
+    * {
+        text-align: center;
+    }
+
+/* Element-Selector */
+    h1 h3 h5 {
+        font-family: Georgia;
+    }  
+
+/* Class-Selector */
+    .Firstpg {
+        color: white;
+        background-color: cornflowerblue;
+    }
+
+    .Secondpg {
+        color: white;
+        background-color: cornflowerblue;
+    }
+
+    .Thirdpg {
+        color: white;
+        background-color: cornflowerblue;
+    }
+
+/* Descendant-Selector */
+    div button {
+        color: azure;
+        background-color: purple;
+    }
+
+/* Element */
+    button:hover {
+        color: blue;
+        background-color: yellow;
+    }
+
+/* Pseuodo-Class */
+    p:nth-of-type(2n + 1) {
+        color: yellow;
+    }
+
+/* Pseuodo-Class */
+    h1::first-letter {
+        color: red;
+    }
+
+    #yes:checked + label {
+        color: darkgreen;
+    }

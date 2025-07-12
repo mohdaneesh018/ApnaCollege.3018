@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 in HTML</title>
+</head>
+<body>
+    <table border="black">
+        <caption>
+            <b>Student Information</b>
+        </caption>
+            
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+                <th>City</th>
+                <th>House</th>
+        
+        
+            <tr>
+                <th>A</th>
+                <th>Delhi</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <th>B</th>
+                <th>Mumbai</th>
+                <th>2</th>
+            </tr>
+            <tr>
+                <th>C</th>
+                <th>Kolkata</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <th>D</th>
+                <th>Pune</th>
+                <th>4</th>
+            </tr>   
+    </table>
+
+    <h3>Question no. 2 :</h3>
+        <form action="/action"> 
+            <div>
+                <label for="m">Name :</label>
+                <input type="text" id="m" name="m">
+            </div>
+            <br>
+            <div>
+                Sex : 
+                    <input type="radio" id="Gender" name="Gender">
+                    <label for="Gender">Male</label>
+                    <input type="radio" id="Gender" name="Gender">
+                    <label for="Gender">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="count">Country :</label>
+                    <select name="count" id="count"> 
+                        <option>Select an option</option>
+                        <option value="in">India</option>
+                        <option value="ne">Nepal</option>
+                        <option value="us">USA</option>
+                        <option value="nz">New Zealand</option>
+                    </select>
+            </div>
+            <br>
+            <div>
+                <label for="msg">Message :</label>
+            </div>
+            <div>
+                <textarea name="msg" id="msg" rows="2" cols="20"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="subs" name="subs">
+                <label for="subs">Subscribe ?</label>
+            </div>
+            <br>
+                <button>Submit</button>
+        </form>
+
+    <h3>Question no. 3 :</h3>
+    <h1>Feedback Form</h1>
+        <form action="/action">
+            <div>
+                <label for="nm">Name :</label>
+                <input type="text" name="nm" id="nm" placeholder="Write Your name">
+            </div>
+            <br>
+            <div>
+                <label for="em">Email :</label>
+                <input type="text" name="em" id="em" placeholder="Write Your email">
+            </div>
+            <br>
+            <div>
+                <label for="msg">Message :</label>
+            </div>
+            <div>
+                <textarea name="msg" id="msg" rows="5" cols="50"></textarea>
+            </div>
+            <div>
+                Rate us our of 5:
+            </div>
+            <div>
+                <input type="radio" name="num" id="num" value="one">
+                <label for="num">1</label>
+            </div>
+            <div>
+                <input type="radio" name="num" id="num" value="two">
+                <label for="num">2</label>
+            </div>
+            <div>
+                <input type="radio" name="num" id="num" value="three">
+                <label for="num">3</label>
+            </div>
+            <div>
+                <input type="radio" name="num" id="num" value="four">
+                <label for="num">4</label>
+            </div>
+            <div>
+                <input type="radio" name="num" id="num" value="five">
+                <label for="num">5</label>
+            </div>
+            <br>
+            <button>Send Your Message!</button>
+        </form>
+</body>
+</html>

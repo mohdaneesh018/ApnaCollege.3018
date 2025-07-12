@@ -1,0 +1,39 @@
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 5px;
+    display: inline-block;
+} */
+
+#second {
+    display: none;   
+}
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    margin: 50px;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+}
+
+button {
+    font-size: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+section {
+    font-size: 35px;
+}
+
+div {
+    font-size: 2rem;
+}
